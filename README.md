@@ -1,11 +1,13 @@
-# MongoDB Cloud Deployment Study
+# MongoDB Atlas Cloud Deployment Study
 
 <br>
 
 ## What is the MongoDB Cloud Deployment Study?
+MongoDB 
 
-* [What is MongoDB Cloud Deployment?](#)
+* [What is MongoDB Atlas?](#What-is-MongoDB-Atlas)
 
 <br>
 
-## What is MongoDB Cloud Deployment?
+## What is MongoDB Atlas?
+MongoDB Atlas is a fully managed cloud version of MongoDB, a popular NoSQL database for build small to enterprise level applications.  But although MongoDB is open-source, scalable, and features high availability as well as support for complex queries and fine concurrency control, MongoDB Atlas provides an easy alternative to installing, tuning for optimal performance and security a database on the cloud for your own project.
