@@ -25,6 +25,9 @@ With Atlas, you can create a MongoDB **cluster** on any major cloud provider (AW
 The first time you do this, you will automatically be prompted to create a new cluster, but if you are already passed this point and want to create a new cluster, just click on ``` Build a New Cluster```.
 
 #### STEP 2: Create a database User
-This user will be used to log onto the database.  All you need to do is click on "Security" > "Database Access" > "+ADD NEW USER".  Once you get a pop-up to add a new user, selct the "Atlas admin" privileges option.   Then, when you add the user, put in the name and password.
+This user will be used to log onto the database.  All you need to do is click on "Security" > "Database Access" > "+ ADD NEW USER".  Once you get a pop-up to add a new user, selct the "Atlas admin" privileges option.   Then, when you add the user, put in the name and password.
 
-#### STEP 3
+#### STEP 3: Whitelist your IP Address
+To do this, select the "Security" > "Network Access" > "+ ADD IP ADDRESS".  For the moment, you can whitelist all IP addresses by selecting "ALLOW ACCESS FROM ANYWHERE"
+
+### STEP 4: Connect to your remote Atlase database
