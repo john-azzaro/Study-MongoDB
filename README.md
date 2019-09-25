@@ -3,7 +3,9 @@
 <br>
 
 ## What is the MongoDB Cloud Deployment Study?
-MongoDB 
+The MongoDB Cloud Deployoment Study is an exploration of creating and using MongoDB on the cloud with services such as Amazon Web Services (AWS), Azure, etc.  
+
+Here's some questions covered in the study:
 
 * [What is MongoDB Atlas?](#What-is-MongoDB-Atlas)
 * [What can you do with MongoDB Atlas?](#What-can-you-do-with-MongoDB-Atlas)
