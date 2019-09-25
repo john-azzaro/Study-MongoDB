@@ -39,3 +39,13 @@ Once thats done, run the connection string in command line, replacing "password"
 mongo "mongodb://my-first-atlas-db-shard-00-00-11uld.mongodb.net:27017,my-first-atlas-db-shard-00-01-11uld.mongodb.net:27017,my-first-atlas-db-shard-00-02-11uld.mongodb.net:27017/test?replicaSet=my-first-atlas-db-shard-0" --ssl --authenticationDatabase admin --username my-first-user --password <PASSWORD>
 
 ```
+This shoudl give you access to your mongoDB database the same as if you had accessed it locally.
+
+<br>
+
+## How do you import data to Atalas database?
+To import data to your Atlas database, you need to use the ```mongoimport``` command.  To do this, under the cluster overview section, click the 3 dots next to conenct, metrics, collections. Then, click "command line tools".  Then, under "Data Import and Export Tools"
+
+```
+mongoimport --host my-first-atlas-db-shard-0/my-first-atlas-db-shard-00-00-11uld.mongodb.net:27017,my-first-atlas-db-shard-00-01-11uld.mongodb.net:27017,my-first-atlas-db-shard-00-02-11uld.mongodb.net:27017 --ssl --username my-first-user --password password123 --authenticationDatabase admin --db test --collection restaurants --type json --file ~/datasets/primer-dataset.json
+```
