@@ -21,13 +21,16 @@ With Atlas, you can create a MongoDB **cluster** on any major cloud provider (AW
 
 ## How do you use MongoDB Atlas?
 
-#### STEP 1: Create a cluster
+### STEP 1: Create a cluster
 The first time you do this, you will automatically be prompted to create a new cluster, but if you are already passed this point and want to create a new cluster, just click on ``` Build a New Cluster```.
 
-#### STEP 2: Create a database User
+### STEP 2: Create a database User
 This user will be used to log onto the database.  All you need to do is click on "Security" > "Database Access" > "+ ADD NEW USER".  Once you get a pop-up to add a new user, selct the "Atlas admin" privileges option.   Then, when you add the user, put in the name and password.
 
-#### STEP 3: Whitelist your IP Address
+### STEP 3: Whitelist your IP Address
 To do this, select the "Security" > "Network Access" > "+ ADD IP ADDRESS".  For the moment, you can whitelist all IP addresses by selecting "ALLOW ACCESS FROM ANYWHERE"
 
-### STEP 4: Connect to your remote Atlase database
+### STEP 4: Connect to your remote Atlas database
+When you connect to the Atlas, you need to select "Connect with the Mongo Shell".  Then, you will need to specify whether or not you have the Mongo Shell installed on your local machine.  To do this, open your Gitbash (or command line) and run ``` mongo --version```.  If you have Mongo Shell installed, you will get a version number and you can select "I have the Mongo Shell installed" option.
+
+Once thats
