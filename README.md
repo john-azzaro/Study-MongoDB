@@ -6,6 +6,9 @@
 MongoDB 
 
 * [What is MongoDB Atlas?](#What-is-MongoDB-Atlas)
+* [What can you do with MongoDB Atlas?](#What-can-you-do-with-MongoDB-Atlas)
+* [How do you use MongoDB Atlas?](#How-do-you-use-MongoDB-Atlas)
+* [How do you import data to Atlas database?](#How-do-you-import-data-to-Atlas-database?)
 
 <br>
 
@@ -43,7 +46,7 @@ This shoudl give you access to your mongoDB database the same as if you had acce
 
 <br>
 
-## How do you import data to Atalas database?
+## How do you import data to Atlas database?
 To import data to your Atlas database, you need to use the ```mongoimport``` command.  To do this, under the cluster overview section, click the 3 dots next to conenct, metrics, collections. Then, click "command line tools".  Then, under "Data Import and Export Tools"
 
 ```
