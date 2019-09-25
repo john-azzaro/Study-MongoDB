@@ -33,4 +33,9 @@ To do this, select the "Security" > "Network Access" > "+ ADD IP ADDRESS".  For 
 ### STEP 4: Connect to your remote Atlas database
 When you connect to the Atlas, you need to select "Connect with the Mongo Shell".  Then, you will need to specify whether or not you have the Mongo Shell installed on your local machine.  To do this, open your Gitbash (or command line) and run ``` mongo --version```.  If you have Mongo Shell installed, you will get a version number and you can select "I have the Mongo Shell installed" option.
 
-Once thats
+Once thats done, run the connection string in command line, replacing "password" with the password you chose for your user.
+
+```
+mongo "mongodb://my-first-atlas-db-shard-00-00-11uld.mongodb.net:27017,my-first-atlas-db-shard-00-01-11uld.mongodb.net:27017,my-first-atlas-db-shard-00-02-11uld.mongodb.net:27017/test?replicaSet=my-first-atlas-db-shard-0" --ssl --authenticationDatabase admin --username my-first-user --password <PASSWORD>
+
+```
